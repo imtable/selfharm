@@ -1,4 +1,4 @@
-a:4:{s:4:"root";s:24:"./assets/less/style.less";s:8:"compiled";s:4651:"@import "popup";
+a:4:{s:4:"root";s:24:"./assets/less/style.less";s:8:"compiled";s:4743:"@import "popup";
 .btn {
   background: gold;
   padding: 10px 15px;
@@ -50,6 +50,11 @@ a:4:{s:4:"root";s:24:"./assets/less/style.less";s:8:"compiled";s:4651:"@import "
   display: flex;
   justify-content: flex-end;
   padding: 5px 10px;
+}
+@media (max-width: 567px) {
+  .main .container .task .left-wrapper {
+    width: 100%;
+  }
 }
 .main .container .task .left-wrapper .left-box_wrapper {
   width: 900px;
@@ -226,4 +231,4 @@ a {
   flex-direction: column;
   min-height: 100vh;
 }
-";s:5:"files";a:4:{s:55:"/Applications/MAMP/htdocs/myself/assets/less/style.less";i:1608834454;s:56:"/Applications/MAMP/htdocs/myself/assets/less/blocks.less";i:1608838242;s:57:"/Applications/MAMP/htdocs/myself/assets/less/screens.less";i:1608635113;s:60:"/Applications/MAMP/htdocs/myself/assets/less/animations.less";i:1607176990;}s:7:"updated";i:1608838243;}
+";s:5:"files";a:4:{s:55:"/Applications/MAMP/htdocs/myself/assets/less/style.less";i:1608834454;s:56:"/Applications/MAMP/htdocs/myself/assets/less/blocks.less";i:1608838366;s:57:"/Applications/MAMP/htdocs/myself/assets/less/screens.less";i:1608635113;s:60:"/Applications/MAMP/htdocs/myself/assets/less/animations.less";i:1607176990;}s:7:"updated";i:1608838367;}
