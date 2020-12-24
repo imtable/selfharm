@@ -1,0 +1,167 @@
+// main: style.less
+
+// ______________________________buttons______________________________
+
+.btn {
+    background: gold;
+    padding: 10px 15px;
+    color: black;
+}
+
+// ______________________________code______________________________
+
+
+
+.header {
+    background: tan;
+
+    .header_wrapper {
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .header_leftside {
+            .logo {
+                width: 70px;
+                display: flex;
+
+                img {
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .header_middleside {
+            .menu {
+                display: flex;
+                justify-content: space-between;
+
+                .item {
+                    // a+a {
+                    //     margin-left: 15px;
+                    // }
+
+                    a {
+                        margin-left: 15px;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        .header_rightside {
+            .header_links {
+                .link-git {
+                    display: flex;
+                    width: 80px;
+
+                    &:hover {
+                        transform: scale(1.05);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.main {
+    flex: 1 1 auto;
+
+    .container {
+        .task {
+            display: flex;
+            height: 100vh;
+            width: 100%;
+
+            .left-wrapper {
+                background: lightblue;
+                height: 100vh;
+                width: 70%;
+                display: flex;
+                justify-content: flex-end;
+                padding: 5px 10px;
+
+                .left-box_wrapper {
+                    width: 1000px;
+                    height: 600px;
+
+                    .left-box {
+                        border: 1px solid white;
+                        max-width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+
+            .right-wrapper {
+                background: pink;
+                height: 100vh;
+                width: 30%;
+                padding: 5px 10px;
+
+                .right-box_wrapper {
+                    max-width: 150px;
+                    height: 300px;
+
+                    .right-box {
+                        overflow-x: hidden;
+                        border: 1px solid white;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    // .section {
+    //     .container {}
+
+    //     .section_wrapper {}
+
+    //     .section-1 {
+    //         .container {
+    //             .section_wrapper {}
+    //         }
+    //     }
+    // }
+}
+
+
+
+.footer {
+    background: tan;
+
+    .footer_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 0;
+
+        .footer_links {
+            .link-git {
+                display: flex;
+                width: 80px;
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
+        }
+
+        .copyright {
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        .footer_logo {
+            width: 40px;
+            display: flex;
+
+            img {
+                border-radius: 50%;
+            }
+        }
+    }
+}
